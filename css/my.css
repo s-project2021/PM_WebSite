@@ -1,0 +1,4 @@
+html {
+    /* リンクをなめらかにスクロールさせるヤツ */
+    scroll-behavior: smooth;
+}
