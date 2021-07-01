@@ -1,4 +1,4 @@
-function init() {
+function ll_iframe() {
     var vidDefer = document.getElementsByTagName('iframe');
     for (var i = 0; i < vidDefer.length; i++) {
         if (vidDefer[i].getAttribute('data-src')) {
@@ -6,4 +6,4 @@ function init() {
         }
     }
 }
-window.onload = init;
+window.onload = ll_iframe;
