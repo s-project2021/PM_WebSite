@@ -140,6 +140,7 @@
     <!-- css -->
     <!-- <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet" /> -->
     <link rel="stylesheet" href="css/my.css" />
+    <link rel="stylesheet" href="css/chart.css" />
 
     <!-- modal -->
     <!-- <script src="js/modal.js"></script>-->
@@ -532,193 +533,258 @@
                 <div id="schedule"></div>
                 <div class="col-md-12 heading animate-box">
                     <h2>スケジュール</h2>
-                    <p>
-                        <!-- スケジュール -->
-                    </p>
+                    <div class="chart">
+                        <!-- test -->
+                        <div class="wrapper">
+                            <div class="header">
+
+                            </div>
+                            <div class="gantt">
+                                <div class="gantt__row gantt__row--months">
+                                    <div class="gantt__row-first"></div>
+                                    <span>1月</span><span>2月</span><span>3月</span>
+                                    <span>4月</span><span>5月</span><span>6月</span>
+                                    <span>7月</span><span>8月</span><span>9月</span>
+                                    <span>10月</span><span>11月</span>
+                                    <span>12月</span>
+                                </div>
+                                <div class="gantt__row gantt__row--lines" data-month="5">
+                                    <span></span><span></span><span></span>
+                                    <span></span><span></span><span></span>
+                                    <span></span><span></span><span></span>
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="gantt__row">
+                                    <div class="gantt__row-first">
+                                        a
+                                    </div>
+                                    <ul class="gantt__row-bars">
+                                        <li style="grid-column: 4/11; background-color: #2ecaac;">ディレクション</li>
+                                    </ul>
+                                </div>
+                                <div class="gantt__row">
+                                    <div class="gantt__row-first">
+                                        a
+                                    </div>
+                                    <ul class="gantt__row-bars">
+                                        <li style="grid-column: 2/5; background-color: #2ecaac;">デザイン</li>
+                                        <li style="grid-column: 1/6; background-color: #ff6252;" class="stripes">見積もり・ディレクション</li>
+                                        <li style="grid-column: 7/11; background-color: #54c6f9;">マークアップ</li>
+                                    </ul>
+                                </div>
+
+                                <div class="gantt__row">
+                                    <div class="gantt__row-first">
+                                        a
+                                    </div>
+                                    <ul class="gantt__row-bars">
+                                        <li style="grid-column: 2/5; background-color: #2ecaac;">デザイン</li>
+                                    </ul>
+                                </div>
+                                <div class="gantt__row">
+                                    <div class="gantt__row-first">
+                                        a
+                                    </div>
+                                    <ul class="gantt__row-bars">
+                                        <li style="grid-column: 3/8; background-color: #54c6f9;">コーディング</li>
+                                    </ul>
+                                </div>
+
+                                <div class="gantt__row">
+                                    <div class="gantt__row-first">
+                                        a
+                                    </div>
+                                    <ul class="gantt__row-bars">
+                                        <li style="grid-column: 4/9; background-color: #ff6252;" class="stripes">マークアップ</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /test -->
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Result -->
-        <div class="container">
-            <div class="row text-center" id="fh5co-features">
-                <div id="result"></div>
+            <!-- Result -->
+            <div class="container">
+                <div class="row text-center" id="fh5co-features">
+                    <div id="result"></div>
 
-                <div class="col-md-12 heading animate-box">
-                    <h2>活動成果</h2>
-                    <p>
-                        <!-- 動画の埋め込み AND 成果報告 -->
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- END fhtco-main -->
-
-    <footer role="contentinfo" id="fh5co-footer">
-        <a href="#" class="fh5co-arrow fh5co-gotop footer-box">
-            <i class="ti-angle-up"></i>
-        </a>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 footer-box">
-                    <h3 class="fh5co-footer-heading">Sitemap</h3>
-                    <ul class="fh5co-footer-links">
-                        <li><a href="./index.html">Home</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 col-sm-6 footer-box">
-                    <h3 class="fh5co-footer-heading">More Links</h3>
-                    <ul class="fh5co-footer-links">
-                        <li>
-                            <a target="_blank" href="https://www.senshu-u.ac.jp/">
-                                    専修大学
-                                </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="http://ni.ne.senshu-u.ac.jp/">
-                                    専修大学 ネットワーク情報学部
-                                </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.ne.senshu-u.ac.jp/project2021/">
-                                    プロジェクト中間発表会2021
-                                </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4 col-sm-12 footer-box">
-                    <h3 class="fh5co-footer-heading">SNS Links</h3>
-                    <ul class="fh5co-social-icons">
-                        <li>
-                            <a target="_blank" href="https://s-project2021.tumblr.com/">
-                                <i class="ti-tumblr-alt"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://github.com/s-project2021/">
-                                <i class="ti-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://twitter.com/sproj2021">
-                                <i class="ti-twitter-alt"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.youtube.com/channel/UC4UWX_TtBcLyoEVusVvmO6g">
-                                <i class="ti-youtube"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-12 footer-box text-center">
-                    <div class="fh5co-copyright">
+                    <div class="col-md-12 heading animate-box">
+                        <h2>活動成果</h2>
                         <p>
-                            &copy; 2021 S-Project2021 / Free Valet.
-                            <br /> Designed by
-                            <a href="http://freehtml5.co" target="_blank">
-                                    FREEHTML5.co
-                                </a> .
+                            <!-- 動画の埋め込み AND 成果報告 -->
                         </p>
                     </div>
                 </div>
             </div>
-            <!-- END row -->
-            <div class="fh5co-spacer fh5co-spacer-md"></div>
         </div>
-    </footer>
 
-    <!-- modal-ai -->
-    <div class="modal fade" id="modal-ai" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">
+        <!-- END fhtco-main -->
+
+        <footer role="contentinfo" id="fh5co-footer">
+            <a href="#" class="fh5co-arrow fh5co-gotop footer-box">
+                <i class="ti-angle-up"></i>
+            </a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 footer-box">
+                        <h3 class="fh5co-footer-heading">Sitemap</h3>
+                        <ul class="fh5co-footer-links">
+                            <li><a href="./index.html">Home</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 footer-box">
+                        <h3 class="fh5co-footer-heading">More Links</h3>
+                        <ul class="fh5co-footer-links">
+                            <li>
+                                <a target="_blank" href="https://www.senshu-u.ac.jp/">
+                                    専修大学
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://ni.ne.senshu-u.ac.jp/">
+                                    専修大学 ネットワーク情報学部
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.ne.senshu-u.ac.jp/project2021/">
+                                    プロジェクト中間発表会2021
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-12 footer-box">
+                        <h3 class="fh5co-footer-heading">SNS Links</h3>
+                        <ul class="fh5co-social-icons">
+                            <li>
+                                <a target="_blank" href="https://s-project2021.tumblr.com/">
+                                    <i class="ti-tumblr-alt"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://github.com/s-project2021/">
+                                    <i class="ti-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://twitter.com/sproj2021">
+                                    <i class="ti-twitter-alt"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.youtube.com/channel/UC4UWX_TtBcLyoEVusVvmO6g">
+                                    <i class="ti-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 footer-box text-center">
+                        <div class="fh5co-copyright">
+                            <p>
+                                &copy; 2021 S-Project2021 / Free Valet.
+                                <br /> Designed by
+                                <a href="http://freehtml5.co" target="_blank">
+                                    FREEHTML5.co
+                                </a> .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END row -->
+                <div class="fh5co-spacer fh5co-spacer-md"></div>
+            </div>
+        </footer>
+
+        <!-- modal-ai -->
+        <div class="modal fade" id="modal-ai" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
                             <span>×</span>
                         </button>
-                    <h4 class="modal-title">AIチーム進捗</h4>
-                </div>
-                <div class="modal-body">
-                    <iframe class="wid" src="" data-src="https://s-project2021.tumblr.com/search/%23AI" loading="lazy" width="100%" height="450px"></iframe>
-                    <div class="right">
-                        <a target="_blank" href="https://s-project2021.tumblr.com/search/%23AI">
+                        <h4 class="modal-title">AIチーム進捗</h4>
+                    </div>
+                    <div class="modal-body">
+                        <iframe class="wid" src="" data-src="https://s-project2021.tumblr.com/search/%23AI" loading="lazy" width="100%" height="450px"></iframe>
+                        <div class="right">
+                            <a target="_blank" href="https://s-project2021.tumblr.com/search/%23AI">
                                 全画面で表示
                             </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- modal-sc -->
-    <div class="modal fade" id="modal-sc" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">
+        <!-- modal-sc -->
+        <div class="modal fade" id="modal-sc" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
                             <span>×</span>
                         </button>
-                    <h4 class="modal-title">SCチーム進捗</h4>
-                </div>
-                <div class="modal-body">
-                    <iframe class="wid" src="" data-src="https://s-project2021.tumblr.com/search/%23SC" loading="lazy" width="100%" height="450px"></iframe>
-                    <div class="right">
-                        <a target="_blank" href="https://s-project2021.tumblr.com/search/%23SC">
+                        <h4 class="modal-title">SCチーム進捗</h4>
+                    </div>
+                    <div class="modal-body">
+                        <iframe class="wid" src="" data-src="https://s-project2021.tumblr.com/search/%23SC" loading="lazy" width="100%" height="450px"></iframe>
+                        <div class="right">
+                            <a target="_blank" href="https://s-project2021.tumblr.com/search/%23SC">
                                 全画面で表示
                             </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- modal-pm -->
-    <div class="modal fade" id="modal-pm" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">
+        <!-- modal-pm -->
+        <div class="modal fade" id="modal-pm" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
                             <span>×</span>
                         </button>
-                    <h4 class="modal-title">PMチーム進捗</h4>
-                </div>
-                <div class="modal-body">
-                    <iframe class="wid" src="" data-src="https://s-project2021.tumblr.com/search/%23PM" loading="lazy" width="100%" height="450px"></iframe>
-                    <div class="right">
-                        <a target="_blank" href="https://s-project2021.tumblr.com/search/%23PM">
+                        <h4 class="modal-title">PMチーム進捗</h4>
+                    </div>
+                    <div class="modal-body">
+                        <iframe class="wid" src="" data-src="https://s-project2021.tumblr.com/search/%23PM" loading="lazy" width="100%" height="450px"></iframe>
+                        <div class="right">
+                            <a target="_blank" href="https://s-project2021.tumblr.com/search/%23PM">
                                 全画面で表示
                             </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- jQuery -->
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <!-- jQuery Easing -->
-    <script src="js/jquery.easing.1.3.js"></script>
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.js"></script>
-    <!-- Owl carousel -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <!-- Superfish -->
-    <script src="js/hoverIntent.js"></script>
-    <script src="js/superfish.js"></script>
-    <!-- Easy Responsive Tabs -->
-    <script src="js/easyResponsiveTabs.js"></script>
-    <!-- FastClick for Mobile/Tablets -->
-    <script src="js/fastclick.js"></script>
-    <!-- Parallax -->
-    <script src="js/jquery.parallax-scroll.min.js"></script>
-    <!-- Waypoints -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <!-- Main JS -->
-    <script src="js/main.js"></script>
+        <!-- jQuery -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <!-- jQuery Easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.js"></script>
+        <!-- Owl carousel -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- Magnific Popup -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <!-- Superfish -->
+        <script src="js/hoverIntent.js"></script>
+        <script src="js/superfish.js"></script>
+        <!-- Easy Responsive Tabs -->
+        <script src="js/easyResponsiveTabs.js"></script>
+        <!-- FastClick for Mobile/Tablets -->
+        <script src="js/fastclick.js"></script>
+        <!-- Parallax -->
+        <script src="js/jquery.parallax-scroll.min.js"></script>
+        <!-- Waypoints -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <!-- Main JS -->
+        <script src="js/main.js"></script>
 </body>
 
 </html>
