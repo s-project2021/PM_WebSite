@@ -1,8 +1,0 @@
-html {
-    /* リンクをなめらかにスクロールさせるヤツ */
-    scroll-behavior: smooth;
-}
-
-.right {
-    text-align: right;
-}
