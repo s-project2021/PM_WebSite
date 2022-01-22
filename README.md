@@ -9,7 +9,7 @@
 ## 使用技術・テンプレート
 - [Bootstrap](https://getbootstrap.jp/)
 - [css-grid-gantt-chart.markdown](https://gist.github.com/marksumoto/40983f20c2d9899bbaa8e1f89a73b527)
-- [FREEHTML5.co](https://freehtml5.co/)
+- [FREEHTML5.co](https://freehtml5.co/) - https://freehtml5.co/valet-free-html5-bootstrap-template/
 
 ## 注意
 掲載コンテンツ(画像等)の無断利用を禁じます.
