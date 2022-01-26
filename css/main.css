@@ -27,3 +27,7 @@ html {
     height: 135%;
     border: none;
 }
+
+.pdf embed {
+    border: 1px solid #000;
+}
